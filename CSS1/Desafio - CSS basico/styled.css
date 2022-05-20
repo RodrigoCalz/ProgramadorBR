@@ -1,0 +1,36 @@
+#card{
+    width: 400px;
+    height: 200px;
+    background-image: url(/imagens/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+    padding: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+}
+
+.item1{
+    list-style-image: url(/imagens/Insta.png);
+
+}
+
+.item2{
+    list-style-image: url(/imagens/Twitter.png);
+
+}
+
+.item3{
+    list-style-image: url(/imagens/Youtube.png);
+
+}
+
+.titulo{
+    font-size: large;
+}
+
+body{
+    background-color: black;
+}
+
+
+

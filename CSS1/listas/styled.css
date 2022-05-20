@@ -1,0 +1,13 @@
+ul{
+    list-style-type:circle;
+    background-color: darkorchid;
+}
+
+ol{
+    list-style-type:upper-roman;
+    background-color: blue;
+}
+
+li{
+    border: 1px solid black;
+}

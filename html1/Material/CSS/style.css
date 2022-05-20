@@ -1,0 +1,47 @@
+
+
+#paragrafos{
+    /* color: rgb(214, 18, 18); */
+    background-color: red;
+    /* background-image: url(../img/fundo-nuvem.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local; */
+}
+
+.subDiv{
+    background-color:yellow ;
+}
+
+#Titulo{
+    color: rgb(231, 23, 203);
+}
+
+.texto-verde{
+    color: green;
+}
+
+/* .container{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.inside{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+} */
+
+#base{
+    height: 10px;
+    background-color: red;
+}
+
+#container{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+
