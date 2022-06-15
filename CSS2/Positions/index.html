@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    Position Static e Relative
+    <a>
+                POSITION:
+        Essa propriedade serve pra poder mudar o elemento de posição.
+
+        static: segue o posicionamento padrão do display 
+        relative: tem o posicionamento padrão (static) como base podendo ser movimentado a partir desse 
+        lugar de partida. não altera a posição dos demais elementos
+    </a>
+
+    Position Absolut
+    <a>
+        elementos com essa característica "não são vistos" pelos outros elementos, pois não tem posição fixa.
+
+        a referencia de posicionamento fica como sendo as margens do elemento pai (avó, bisavó...),
+        desde que esse não tenha um posicionamento static, nesse caso o elemento com 'position absolute' 
+        alinha-se com o body.
+    </a>
+
+    Position Fixed
+    <a>
+        posicionamento fixo, parece muito com o absoluto, a grande diferença é que ele fica de fato fixo 
+        na tela independente da rolagem ele sempre estarem na posição colocada fixo, e a questão do posicionamento 
+        dele é que ele estará ligado ao viewport (O viewport é a área onde seu website aparece. É a área branca 
+        da janela quando você abre o browser.), então para facilitar é como se o body da sua pagina ficasse por 
+        trás do viewport que está uma camada acima, então ele position:fixed não estará ligado a nenhum elemento pai.
+    </a>
+
+    Position Stick
+    <a>
+        seu posicionamento padrão é respeitado pelos outros elementos, pode se posicionar em relação a 
+        viewport ("grudar"). relaciona-se com o elemento pai.
+    </a>
+
+    
+</body>
+</html>
